@@ -13,5 +13,8 @@ namespace ProyectoExtreme_Negocio.Interfaces
     public interface IVehiculo
     {
         List<Vehiculo> GetVehiculos();
+        string InsertVehiculo(Vehiculo vehiculo);
+        string UpdateVehiculo(int id, Vehiculo vehiculo);
+        string DeleteVehiculo(int id);
     }
 }
