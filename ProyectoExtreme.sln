@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoExtreme_API", "ProyectoExtreme\ProyectoExtreme_API.csproj", "{137D1E14-65BD-4ADC-8B27-F4452B5DB145}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoExtreme_API", "ProyectoExtreme\ProyectoExtreme_API.csproj", "{137D1E14-65BD-4ADC-8B27-F4452B5DB145}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoExtreme_Datos", "ProyectoExtreme_Datos\ProyectoExtreme_Datos.csproj", "{77B3889F-15CB-464E-BA95-466B1FE2137F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoExtreme_Datos", "ProyectoExtreme_Datos\ProyectoExtreme_Datos.csproj", "{77B3889F-15CB-464E-BA95-466B1FE2137F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoExtreme_Negocio", "Negocio\ProyectoExtreme_Negocio.csproj", "{1273DA96-0DD4-432E-A545-22DFC12F025C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoExtreme_Negocio", "Negocio\ProyectoExtreme_Negocio.csproj", "{1273DA96-0DD4-432E-A545-22DFC12F025C}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "proyectoextreme_front", "ProyectoExtreme_Front\proyectoextreme_front.esproj", "{C4CB132A-D516-4C6D-A94B-493E27EEBDFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,12 @@ Global
 		{1273DA96-0DD4-432E-A545-22DFC12F025C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1273DA96-0DD4-432E-A545-22DFC12F025C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1273DA96-0DD4-432E-A545-22DFC12F025C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CB132A-D516-4C6D-A94B-493E27EEBDFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CB132A-D516-4C6D-A94B-493E27EEBDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CB132A-D516-4C6D-A94B-493E27EEBDFD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C4CB132A-D516-4C6D-A94B-493E27EEBDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CB132A-D516-4C6D-A94B-493E27EEBDFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CB132A-D516-4C6D-A94B-493E27EEBDFD}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
