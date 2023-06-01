@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import { useState, useEffect } from "react";
 import './App.css';
 
 function App() {
+    const [data, setData] = useState(null);
+
+    useEffect(() => {
+        fetch("http://localhost:5134/api/Usuario")
+            .then((response) => response.json())
+            .then((data) => setData(data));
+    },[]);
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hola mundo!!!!!!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+          <h1>Hola!</h1>
+          <div className="card">
+              <ul>
+                  {data?.map((usuario) => (
+                      <li key={usuario.id}>{usuario.nombre}</li>
+                      )) }
+              </ul>
+          </div>
     </div>
   );
 }
